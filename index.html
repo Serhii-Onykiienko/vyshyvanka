@@ -32,16 +32,16 @@
           </a>
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-link" href="">About us</a>
+              <a class="nav-link" href="#about">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Our collection</a>
+              <a class="nav-link" href="#collection">Our collection</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Customer order</a>
+              <a class="nav-link" href="#order">Customer order</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Tstimonials</a>
+              <a class="nav-link" href="#views">Testimonials</a>
             </li>
           </ul>
         </nav>
@@ -53,31 +53,30 @@
           </address>
           <ul class="address-soc-list">
             <li class="soc-item">
-              <a class="soc-link" href="" target="_blank"
-                ><img
-                  src="./images/messenger/facebook.svg"
-                  alt="facebook"
-                  width="28"
-                  height="28"
-              /></a>
+              <a
+                class="soc-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                ><svg class="soc-icon" width="28" height="28">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
             </li>
+
+            <li class="soc-item">
+              <a
+                class="soc-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                ><svg class="soc-icon" width="28" height="28">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+
             <li class="soc-item">
               <a class="soc-link" href="" target="_blank"
-                ><img
-                  src="./images/messenger/instagram.svg"
-                  alt="instagram"
-                  width="28"
-                  height="28"
-              /></a>
-            </li>
-            <li class="soc-item">
-              <a class="soc-link" href="" target="_blank"
-                ><img
-                  src="./images/messenger/youtube.svg"
-                  alt="youtube"
-                  width="28"
-                  height="28"
-              /></a>
+                ><svg class="soc-icon" width="28" height="28">
+                  <use href="./images/icons.svg#icon-youtube"></use></svg
+              ></a>
             </li>
           </ul>
         </div>
@@ -100,13 +99,11 @@
               Reviving the traditional
               <span class="accent">Ukrainian</span> artistry in every stitch.
             </h1>
-            <a class="hero__link" href="#order"
+            <a class="hero__link" href="#"
               >ORDER
-              <img
-                class="hero__link-arrow"
-                src="./images/hero/arrow.svg"
-                alt="arrow"
-            /></a>
+              <svg class="hero__link-arrow" width="24" height="16">
+                <use href="./images/icons.svg#icon-arrow"></use></svg
+            ></a>
           </div>
           <div class="hero__sun-wrapper">
             <img
@@ -122,7 +119,7 @@
       </section>
 
       <!-- About -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <div class="about__text-wrapper">
             <h2 class="about__title">About Us</h2>
@@ -145,164 +142,188 @@
               symbolism, which gives it a special meaning.
             </p>
           </div>
-          <img
-            class="about__img-shirt"
-            src="./images/about/about-girl-and-boy.jpg"
-            alt="a fragment of a shirt"
-            width="594"
-            height="545"
-          />
-          <!-- <img
-            class="about__img-elem"
-            src="./images/about/elements.png"
-            alt="elements"
-            width="545"
-            height="484"
-          /> -->
+
+          <div class="about__img-wrapper">
+            <img
+              class="about__img-shirt"
+              src="./images/about/about-girl-and-boy.jpg"
+              alt="a fragment of a shirt"
+              width="594"
+              height="545"
+            />
+          </div>
         </div>
       </section>
 
       <!-- Our colliction -->
-      <section class="our-collection">
+      <section class="our-collection" id="collection">
         <div class="container">
           <h2 class="our-collection__title">Our collection</h2>
-          <!-- <img
-            src="./images/our-collection/traditional-ukrainian-element-gold.png"
-            alt="traditional ukrainian element"
-          /> -->
 
-          <ul class="our-collection__list">
-            <li class="our-collection__item">
-              <img
-                class="our-collection__img"
-                src="./images/our-collection/our-collect-01.jpg"
-                alt="AUGUST Poltava women's blouseRING"
-                width="380"
-                height="430"
-              />
-              <div class="collection-wrapper">
-                <h3 class="our-collection__item-title">
-                  AUGUST Poltava women's blouseRING
-                </h3>
-                <p class="our-collection__text">3300 UAH</p>
-              </div>
-            </li>
-            <li class="our-collection__item">
-              <img
-                class="our-collection__img"
-                src="./images/our-collection/our-collect-02.jpg"
-                alt="Women's blouse Gorgany"
-                width="380"
-                height="430"
-              />
-              <div class="collection-wrapper">
-                <h3 class="our-collection__item-title">
-                  Women's blouse Gorgany
-                </h3>
-                <p class="our-collection__text">3350 UAH</p>
-              </div>
-            </li>
-            <li class="our-collection__item">
-              <img
-                class="our-collection__img"
-                src="./images/our-collection/our-collect-03.jpg"
-                alt="Women's blouse Crimea"
-                width="380"
-                height="430"
-              />
-              <div class="collection-wrapper">
-                <h3 class="our-collection__item-title">
-                  Women's blouse Crimea
-                </h3>
-                <p class="our-collection__text">4000 UAH</p>
-              </div>
-            </li>
-            <li class="our-collection__item">
-              <img
-                class="our-collection__img"
-                src="./images/our-collection/our-collect-04.jpg"
-                alt="Men's shirt Verkhovina"
-                width="380"
-                height="430"
-              />
-              <div class="collection-wrapper">
-                <h3 class="our-collection__item-title">
-                  Men's shirt Verkhovina
-                </h3>
-                <p class="our-collection__text">3100 UAH</p>
-              </div>
-            </li>
-            <li class="our-collection__item">
-              <img
-                class="our-collection__img"
-                src="./images/our-collection/our-collect-05.jpg"
-                alt="Mountain men's shirt"
-                width="380"
-                height="430"
-              />
-              <div class="collection-wrapper">
-                <h3 class="our-collection__item-title">Mountain men's shirt</h3>
-                <p class="our-collection__text">3300 UAH</p>
-              </div>
-            </li>
-            <li class="our-collection__item">
-              <img
-                class="our-collection__img"
-                src="./images/our-collection/our-collect-06.jpg"
-                alt="Men's shirt Yasen"
-                width="380"
-                height="430"
-              />
-              <div class="collection-wrapper">
-                <h3 class="our-collection__item-title">Men's shirt Yasen</h3>
-                <p class="our-collection__text">1700 UAH</p>
-              </div>
-            </li>
-          </ul>
+          <div class="our-collection__item-bg-wrapper">
+            <ul class="our-collection__list">
+              <li class="our-collection__item">
+                <img
+                  class="our-collection__img"
+                  src="./images/our-collection/our-collect-01.jpg"
+                  alt="AUGUST Poltava women's blouseRING"
+                  width="380"
+                  height="430"
+                />
+                <div class="collection-wrapper">
+                  <h3 class="our-collection__item-title">
+                    AUGUST Poltava women's blouseRING
+                  </h3>
+                  <p class="our-collection__text">3300 UAH</p>
+                </div>
+              </li>
+              <li class="our-collection__item">
+                <img
+                  class="our-collection__img"
+                  src="./images/our-collection/our-collect-02.jpg"
+                  alt="Women's blouse Gorgany"
+                  width="380"
+                  height="430"
+                />
+                <div class="collection-wrapper">
+                  <h3 class="our-collection__item-title">
+                    Women's blouse Gorgany
+                  </h3>
+                  <p class="our-collection__text">3350 UAH</p>
+                </div>
+              </li>
+              <li class="our-collection__item">
+                <img
+                  class="our-collection__img"
+                  src="./images/our-collection/our-collect-03.jpg"
+                  alt="Women's blouse Crimea"
+                  width="380"
+                  height="430"
+                />
+                <div class="collection-wrapper">
+                  <h3 class="our-collection__item-title">
+                    Women's blouse Crimea
+                  </h3>
+                  <p class="our-collection__text">4000 UAH</p>
+                </div>
+              </li>
+              <li class="our-collection__item">
+                <img
+                  class="our-collection__img"
+                  src="./images/our-collection/our-collect-04.jpg"
+                  alt="Men's shirt Verkhovina"
+                  width="380"
+                  height="430"
+                />
+                <div class="collection-wrapper">
+                  <h3 class="our-collection__item-title">
+                    Men's shirt Verkhovina
+                  </h3>
+                  <p class="our-collection__text">3100 UAH</p>
+                </div>
+              </li>
+              <li class="our-collection__item">
+                <img
+                  class="our-collection__img"
+                  src="./images/our-collection/our-collect-05.jpg"
+                  alt="Mountain men's shirt"
+                  width="380"
+                  height="430"
+                />
+                <div class="collection-wrapper">
+                  <h3 class="our-collection__item-title">
+                    Mountain men's shirt
+                  </h3>
+                  <p class="our-collection__text">3300 UAH</p>
+                </div>
+              </li>
+              <li class="our-collection__item">
+                <img
+                  class="our-collection__img"
+                  src="./images/our-collection/our-collect-06.jpg"
+                  alt="Men's shirt Yasen"
+                  width="380"
+                  height="430"
+                />
+                <div class="collection-wrapper">
+                  <h3 class="our-collection__item-title">Men's shirt Yasen</h3>
+                  <p class="our-collection__text">1700 UAH</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <!-- Galery -->
       <section class="galery">
-        <div class="container">
-          <img
-            class="galery__img"
-            src="./images/galery/girl.jpg"
-            alt="girl"
-            width="1280"
-            height="776"
-          />
-        </div>
+        <div class="container"></div>
+        <img
+          class="galery__img"
+          src="./images/galery/girl.jpg"
+          alt="girl"
+          width="1280"
+          height="776"
+        />
       </section>
 
       <!-- Form -->
-      <section class="form">
+      <section class="section-form" id="order">
         <div class="container">
-          <!-- <img
-            src="./images/form/traditional-ukrainian-elements-grey.png"
-            alt="traditional elements grey"
-            width="289"
-            height="484"
-          /> -->
-          <img
-            class="form__img"
-            src="./images/form/element-vyshyvanka.jpg"
-            alt="element vyshyvanka"
-            width="588"
-            height="521"
-          />
-          <h2 class="form__title" id="order">
-            <span class="accent">Your order</span> is our priority: Personalized
-            approach and quality of service
-          </h2>
-          <!-- <button class="form__button" type="button">
-            Send <img src="./images/hero/arrow.svg" alt="Send Arrow" />
-          </button> -->
+          <div class="form__img-wrapper">
+            <img
+              class="form__img"
+              src="./images/form/element-vyshyvanka.jpg"
+              alt="element vyshyvanka"
+              width="588"
+              height="521"
+            />
+          </div>
+
+          <div class="form-wrapper">
+            <h2 class="form__title">
+              <span class="accent">Your order</span> is our priority:
+              Personalized approach and quality of service
+            </h2>
+            <form class="order-form">
+              <label class="form-label" for="name"></label>
+              <input
+                class="form-input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+              />
+
+              <label class="form-label" for="email"></label>
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+
+              <label class="form-label" for="comments"></label>
+              <textarea
+                class="form-textarea"
+                name="comments"
+                id="comments"
+                placeholder="Comments"
+              ></textarea>
+
+              <button class="form-button" type="submit">
+                Send<svg class="hero__link-arrow" width="24" height="16">
+                  <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </section>
 
       <!-- Testimonials -->
-      <section class="testimonials">
+      <section class="testimonials" id="views">
         <div class="container">
           <h2 class="testimonials__title">Testimonials</h2>
 
@@ -363,39 +384,35 @@
           </ul>
         </div>
       </section>
-
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="container">
-          <ul class="footer__list">
-            <li class="footer__item">
-              <a class="footer__item-link" href="">About us</a>
-            </li>
-            <li class="footer__item">
-              <a class="footer__item-link" href="">Our collection</a>
-            </li>
-            <li class="footer__item">
-              <a class="footer__item-link" href="">CUSTOMER ORDER</a>
-            </li>
-            <li class="footer__item">
-              <a class="footer__item-link" href="">TEstimonials</a>
-            </li>
-          </ul>
-          <div class="footer__cont-wrapper">
-            <p class="footer__text">
-              A touch of <span class="accent">Ukrainian</span> culture in every
-              embroidery
-            </p>
-            <!-- <img
-              class="footer__img-elem"
-              src="./images/footer/footer-elements.png"
-              alt="traditional elements gold"
-              width="595"
-              height="528"
-            /> -->
-          </div>
-        </div>
-      </footer>
     </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__item-link nav-link" href="#about">About us</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__item-link nav-link" href="#collection"
+              >Our collection</a
+            >
+          </li>
+          <li class="footer__item">
+            <a class="footer__item-link nav-link" href="#order"
+              >CUSTOMER ORDER</a
+            >
+          </li>
+          <li class="footer__item">
+            <a class="footer__item-link nav-link" href="#views">Testimonials</a>
+          </li>
+        </ul>
+        <div class="footer__cont-wrapper">
+          <p class="footer__text">
+            A touch of <span class="accent">Ukrainian</span> culture in every
+            embroidery
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
