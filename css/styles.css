@@ -482,7 +482,6 @@ button {
 
 @media only screen and (min-width: 768px) {
   .about__text-wrapper {
-    max-width: 100%;
     margin-bottom: 40px;
   }
 }
@@ -603,9 +602,6 @@ button {
 
 @media only screen and (min-width: 1280px) {
   .about__img-wrapper::before {
-    width: 545px;
-    height: 484px;
-
     right: -210px;
     bottom: -80px;
   }
