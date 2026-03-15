@@ -576,7 +576,7 @@ button {
   width: 459px;
   height: 408px;
 
-  background-image: url(/images/about/elements-grey.png);
+  background-image: url(./images/about/elements-grey.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -586,7 +586,7 @@ button {
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about__img-wrapper::before {
-    background-image: url(/images/about/elements-grey@2x.png);
+    background-image: url(./images/about/elements-grey@2x.png);
   }
 }
 
